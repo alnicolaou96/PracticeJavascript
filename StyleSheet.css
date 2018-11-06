@@ -1,0 +1,15 @@
+div{
+    color:green;
+}
+body{
+    display:grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows:repeat(10,50px);
+}
+
+#growButton{
+    grid-column: 10;
+    grid-row:10;
+    height:25px;
+    border-radius: 10px;
+}
